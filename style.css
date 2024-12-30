@@ -1,0 +1,34 @@
+/* style.css */
+body {
+    font-family: 'JetBrains Mono', monospace;
+    margin: 20px;
+    background-color: #e3e3e3; /* Black background */
+    color: #0e55e3; /* White text */
+}
+
+h1 {
+    text-align: center;
+    color: #00560d; /* Optional: Neon green for the title */
+    font-size: 1rem; /* Keep the header the same size */
+    font-weight: 400; /* Match the weight to body text */
+}
+
+.pdf-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: left;
+}
+
+a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #000000; /* Dodger blue for links */
+    padding: 10px;
+    transition: 0.2s;
+}
+
+a:hover {
+    background-color: #000000;
+    color: #ffffff; /* Black text on hover */
+}
